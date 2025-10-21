@@ -1,3 +1,0 @@
-# This file is used internally by FFMPEG.
-file 'file:C:/Users/Tabesh/Documents/GitHub/manim-fa-physics/media/videos/DynamicElectricFieldSceneII/1080p60/partial_movie_files/DynamicElectricFieldSceneII/3977891868_3005964147_3635917225.mp4'
-file 'file:C:/Users/Tabesh/Documents/GitHub/manim-fa-physics/media/videos/DynamicElectricFieldSceneII/1080p60/partial_movie_files/DynamicElectricFieldSceneII/2852726489_2408024828_1624634698.mp4'
