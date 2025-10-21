@@ -1,8 +1,0 @@
-manim_fa_physics/
-├── __init__.py
-├── mechanics.py       ← کدهای عمومی مکانیک (rigid bodies, SpaceScene)
-├── pendulum.py        ← MultiPendulum و Pendulum
-├── lenses.py          ← کلاس Lens
-├── rays.py            ← کلاس Ray
-├── electrostatics.py  ← Charge و ElectricField
-├── magnetostatics.py  ← Wire و MagneticField
