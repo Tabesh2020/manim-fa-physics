@@ -1,0 +1,12 @@
+# This file is used internally by FFMPEG.
+file 'file:C:/Users/Tabesh/Documents/GitHub/manim-fa-physics/media/videos/ConcaveLensExampleDynamic/1080p60/partial_movie_files/ConcaveLensExampleDynamic/3977891868_3094142782_223132457.mp4'
+file 'file:C:/Users/Tabesh/Documents/GitHub/manim-fa-physics/media/videos/ConcaveLensExampleDynamic/1080p60/partial_movie_files/ConcaveLensExampleDynamic/2852726489_767234638_3837974169.mp4'
+file 'file:C:/Users/Tabesh/Documents/GitHub/manim-fa-physics/media/videos/ConcaveLensExampleDynamic/1080p60/partial_movie_files/ConcaveLensExampleDynamic/2852726489_3152910415_1100229015.mp4'
+file 'file:C:/Users/Tabesh/Documents/GitHub/manim-fa-physics/media/videos/ConcaveLensExampleDynamic/1080p60/partial_movie_files/ConcaveLensExampleDynamic/2852726489_2412657642_1677864918.mp4'
+file 'file:C:/Users/Tabesh/Documents/GitHub/manim-fa-physics/media/videos/ConcaveLensExampleDynamic/1080p60/partial_movie_files/ConcaveLensExampleDynamic/2852726489_3152910415_510248974.mp4'
+file 'file:C:/Users/Tabesh/Documents/GitHub/manim-fa-physics/media/videos/ConcaveLensExampleDynamic/1080p60/partial_movie_files/ConcaveLensExampleDynamic/2852726489_2981672768_752707756.mp4'
+file 'file:C:/Users/Tabesh/Documents/GitHub/manim-fa-physics/media/videos/ConcaveLensExampleDynamic/1080p60/partial_movie_files/ConcaveLensExampleDynamic/2852726489_3152910415_1265422382.mp4'
+file 'file:C:/Users/Tabesh/Documents/GitHub/manim-fa-physics/media/videos/ConcaveLensExampleDynamic/1080p60/partial_movie_files/ConcaveLensExampleDynamic/2852726489_1645388263_1090879105.mp4'
+file 'file:C:/Users/Tabesh/Documents/GitHub/manim-fa-physics/media/videos/ConcaveLensExampleDynamic/1080p60/partial_movie_files/ConcaveLensExampleDynamic/2852726489_3152910415_143632406.mp4'
+file 'file:C:/Users/Tabesh/Documents/GitHub/manim-fa-physics/media/videos/ConcaveLensExampleDynamic/1080p60/partial_movie_files/ConcaveLensExampleDynamic/2852726489_121006456_816480279.mp4'
+file 'file:C:/Users/Tabesh/Documents/GitHub/manim-fa-physics/media/videos/ConcaveLensExampleDynamic/1080p60/partial_movie_files/ConcaveLensExampleDynamic/2852726489_2408024828_1028207016.mp4'

@@ -1,0 +1,19 @@
+[project]
+name = "manim-fa-physics"
+version = "0.1.0"
+description = "افزونه مانیم برای تدریس فیزیک (RTL) با پشتیبانی از فونت فارسی."
+authors = [
+  { name = "Tabesh", email = "tabesh_ali@yahoo.com" }
+]
+readme = "README.md"
+license = "MIT"
+requires-python = ">=3.9"
+dependencies = ["manim"]
+
+[project.urls]
+Homepage = "https://github.com/Tabesh2020/manim-fa-physics"
+Repository = "https://github.com/Tabesh2020/manim-fa-physics"
+
+[build-system]
+requires = ["setuptools>=42", "wheel"]
+build-backend = "setuptools.build_meta"
