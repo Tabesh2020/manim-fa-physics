@@ -19,3 +19,9 @@ Thumbs.db
 
 # لاگ‌ها
 *.log
+.DS_Store
+__pycache__/
+*.pyc
+dist/
+build/
+*.egg-info/

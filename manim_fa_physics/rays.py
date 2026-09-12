@@ -4,7 +4,7 @@ from __future__ import annotations
 from typing import Iterable, Tuple
 
 from manim import config, VMobject, VectorizedPoint, Circle, Square
-from manim import Difference
+from manim import Difference, Intersection
 
 from manim.utils.color import WHITE
 import numpy as np

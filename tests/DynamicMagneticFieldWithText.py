@@ -34,10 +34,9 @@ class DynamicMagneticFieldWithText(Scene):
 
         field.add_updater(update_field)
 
-        # اضافه کردن متن فارسی با فونت IRLotus
+        # اضافه کردن متن فارسی با فونت پیش‌فرض Vazirmatn
         text = FaText(
-            "میدان مغناطیسی حول سیم جریان‌دار",
-            font="IRLotus",
+            "میدان مغناطیسی حول ==سیم جریان‌دار==",
             font_size=36
         ).to_edge(DOWN)
         self.add(text)

@@ -61,10 +61,9 @@ class ConcaveLensExampleDynamic(Scene):
             self.play(Create(ray), run_time=1.2)
             self.wait(0.2)
 
-        # نمایش متن فارسی با فونت IRLotus
+        # نمایش متن فارسی با فونت پیش‌فرض Vazirmatn
         text = FaText(
-            "عبور پرتوهای نور از عدسی واگرا",
-            font="IRLotus",
+            "عبور پرتوهای نور از ==عدسی واگرا==",
             font_size=36
         )
 
@@ -120,6 +119,50 @@ class DynamicElectricFieldSceneII(Scene):
 ```
 
 ---
+### 🔹 مثال ۴ — موج ایستاده روی تار
+```python
+from manim import *
+from manim_fa_physics import *
+from manim_fa import FaText
+
+class StandingWaveExampleScene(Scene):
+    def construct(self):
+        title = FaText("موج ایستاده در **هارمونیک‌های** مختلف", font_size=32)
+        title.to_edge(UP)
+        self.play(Write(title))
+
+        wave1 = StandingWave(1)
+        wave2 = StandingWave(2)
+        wave3 = StandingWave(3)
+        waves = VGroup(wave1, wave2, wave3)
+        waves.arrange(DOWN).move_to(ORIGIN)
+        self.add(waves)
+
+        for wave in waves:
+            wave.start_wave()
+        self.wait(4)
+```
+---
+### 🔹 مثال ۵ — میدان مغناطیسی دو آهنربای میله‌ای
+```python
+from manim import *
+from manim_fa_physics import *
+from manim_fa import FaText
+
+class BarMagnetExample(Scene):
+    def construct(self):
+        bar1 = BarMagnet().rotate(PI / 2).shift(LEFT * 3.5)
+        bar2 = BarMagnet().rotate(PI / 2).shift(RIGHT * 3.5)
+
+        caption = FaText("خطوط میدان از قطب ==شمال== به قطب ==جنوب==", font_size=30)
+        caption.to_edge(DOWN)
+
+        self.add(BarMagneticField(bar1, bar2))
+        self.play(FadeIn(bar1), FadeIn(bar2))
+        self.play(Write(caption))
+        self.wait(2)
+```
+---
 
 ## 🌀 فهرست کامل انیمیشن‌های کاربردی 
 
@@ -136,6 +179,13 @@ class DynamicElectricFieldSceneII(Scene):
 | `ElectricField`                | electrostatics.py         | میدان الکتریکی تولید شده توسط یک یا چند بار                | نمایش خطوط میدان الکتریکی و جهت نیرو                    |
 | `Wire`                         | magnetostatics.py         | سیم حامل جریان الکتریکی                                    | شبیه‌سازی منابع میدان مغناطیسی                          |
 | `MagneticField`                | magnetostatics.py         | میدان مغناطیسی تولید شده توسط سیم‌ها                       | نمایش خطوط میدان مغناطیسی و جهت نیرو                    |
+| `Current`                      | magnetostatics.py         | جریان الکتریکی عمود بر صفحه (به سمت داخل یا بیرون)         | شبیه‌سازی منبع میدان مغناطیسی نقطه‌ای                   |
+| `CurrentMagneticField`         | magnetostatics.py         | میدان مغناطیسی حاصل از یک یا چند جریان عمود بر صفحه        | نمایش خطوط میدان حول جریان‌های موازی                    |
+| `BarMagnet`                    | magnetostatics.py         | آهنربای میله‌ای با قطب شمال و جنوب                          | نمایش دوقطبی مغناطیسی                                   |
+| `BarMagneticField`             | magnetostatics.py         | میدان مغناطیسی حاصل از یک یا چند آهنربای میله‌ای            | نمایش خطوط میدان بین چند آهنربا                         |
+| `LinearWave`                   | waves.py                  | موج سه‌بعدی که در یک جهت مشخص حرکت می‌کند                  | شبیه‌سازی انتشار موج تخت                                |
+| `RadialWave`                   | waves.py                  | موج سه‌بعدی که به‌صورت شعاعی از یک یا چند منبع منتشر می‌شود | شبیه‌سازی تداخل امواج (مثل امواج آب)                    |
+| `StandingWave`                 | waves.py                  | موج ایستاده دوبعدی با هارمونیک قابل تنظیم                  | نمایش هارمونیک‌های تار یا لوله صوتی                     |
 | `TwoObjectsFalling`            | examples / mechanics      | سقوط دو جسم با برخورد و گرانش                              | نمایش حرکت آزاد و برخورد اشیاء تحت گرانش                |
 | `DynamicElectricFieldAdvanced` | examples / electrostatics | نمایش میدان الکتریکی بارهای مثبت و منفی با آرروهای پویا    | مثال پیشرفته برای رفتار دینامیک میدان‌ها                |
 | `DynamicEMFieldScene`          | examples / advanced       | ترکیب میدان‌های الکتریکی و مغناطیسی با حرکت بارها و سیم‌ها | شبیه‌سازی واقع‌گرایانه میدان‌های الکترومغناطیس          |

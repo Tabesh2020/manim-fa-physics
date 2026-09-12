@@ -22,8 +22,7 @@ class DynamicMagneticFieldWithText(Scene):
 
         # اضافه کردن متن فارسی
         text = FaText(
-            "سیم در میدان مغناطیسی در حال چرخش است",
-            font="IRLotus",
+            "سیم در میدان مغناطیسی در حال ==چرخش== است",
             font_size=36
         ).to_edge(DOWN)
         self.add(text)

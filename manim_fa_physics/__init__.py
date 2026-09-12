@@ -4,6 +4,7 @@ from .lenses import *
 from .rays import *
 from .electrostatics import *
 from .magnetostatics import *
+from .waves import *
 
 __all__ = [
     *mechanics.__all__,
@@ -12,4 +13,5 @@ __all__ = [
     *rays.__all__,
     *electrostatics.__all__,
     *magnetostatics.__all__,
+    *waves.__all__,
 ]

@@ -19,10 +19,9 @@ class ConcaveLensExampleDynamic(Scene):
             self.play(Create(ray), run_time=1.2)
             self.wait(0.2)
 
-        # نمایش متن فارسی با فونت IRLotus
+        # نمایش متن فارسی با فونت پیش‌فرض Vazirmatn
         text = FaText(
-            "عبور پرتوهای نور از عدسی واگرا",
-            font="IRLotus",
+            "عبور پرتوهای نور از ==عدسی واگرا==",
             font_size=36
         )
 
